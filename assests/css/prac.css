@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    background-color: coral;
+    height: 79px;
+    
+   
+}
+
+header>nav>img{
+  
+    height: 79px;
+}
+
+
+
+header>nav>ul{
+    background-color: tomato;
+    list-style-type: none;
+    float: right;
+    margin-top: 0;
+    
+}
+
+header>nav>ul>li{
+    display:inline-block;
+    padding: 30px;
+  
+    
+}
+
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: snow;
+}
+
+header>nav>ul>li:hover{
+    background-color: royalblue;
+}
+
+/* Navigation code completed */
+
+.banner{
+    background-color: goldenrod;
+    height: 500px;
+}
+
+.banner>h1{
+    text-align: center;
+    color: snow;
+    text-shadow: 2px 2px 2px #000;
+    padding-top:200px;
+}
+
+.banner>h1:hover, .banner1>h1:hover, .banner2>h2:hover{
+    color: indigo;
+}
+
+/* section1 code */
+ .banner1{
+  
+    height: 700px;
+     background-image: url(../Image/truck.jpg);
+     background-repeat: none;
+    
+
+ }
+
+ .banner1>h1, .banner2>h2{
+     text-align: center;
+     color: darkred;    
+     text-shadow: 3px 3px 3px snow;
+
+ }
+
+ .banner2>h2{
+     padding-top: 300px;
+ }
+
+ .banner2{
+     height: 600px;
+     background: linear-gradient(to  top,rgb(18, 63, 104),rgb(255, 133, 138))
+ }

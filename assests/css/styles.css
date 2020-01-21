@@ -1,0 +1,245 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    background-color: darkslategray;
+    height: auto;
+    position: relative;
+}
+
+header>nav>ul{
+    list-style-type: none;
+}
+
+nav>ul{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav>ul>li{
+    margin: 20px;
+    padding: 5px;
+ 
+ 
+}
+
+#list:hover{
+    background-color: darkviolet;
+}
+
+nav>ul>li>a{
+    color: snow;
+    text-decoration: none;
+}
+
+.im1{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+}
+
+.im1:hover{
+  background-color: tomato;
+
+ 
+}
+
+#text1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 170px;
+    color: floralwhite;
+    background-color:brown;
+    padding:5px;
+    text-shadow: 3px 3px 3px #000;
+    box-shadow: 3px 3px 3px #000;
+    
+}
+
+.mob-header{
+    display: none;
+}
+
+
+
+
+/* first section style */
+
+ .first>h3{
+     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: snow;
+    padding-top: 100px;
+}
+
+.first{
+    margin-top: 5px;
+    background: linear-gradient(to right,rgba(18, 63, 104,0.2),rgb(250, 241, 150));
+    background-image: url('../Image/code10.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 450px;
+    animation-name: first;        
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+.second{
+    /* box-shadow: 2px 2px 2px #000;
+    
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  */
+   
+    margin-top: 20px;
+    float: left;
+    width: 60%;
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.second img{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 200px;
+    height: 200px;
+
+    
+}
+
+.second img:hover{
+    transform: skewX(-10deg);
+}
+
+
+
+
+
+
+
+.aside{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 2px #000;
+    
+}
+
+
+.aside:hover{
+    transform: scaleX(10deg);
+
+}
+
+
+#hrz{
+    margin-top: 30px;
+    border-top: 6px dotted dimgrey;
+    width: 40%;
+    margin-left: 400px;
+   
+}
+
+.hor{
+    margin-top: 250px;
+    
+    border-top: 6px dotted dimgrey;
+    border-bottom: none;
+    width: 40%;
+    margin-left: 400px;
+   
+
+}
+
+#foot{
+    margin-top: 70px;
+    border: 1px solid green;
+    background: linear-gradient(to right, #1e130c, #9a8478);
+}
+
+#foot>p{
+    text-align: center;
+    margin-top: 120px;
+    color: gainsboro;
+    background-color: gray;
+}
+
+#foot>p:hover{
+    color: brown;
+    background: linear-gradient(to right,grey,snow);
+}
+
+
+.foot-c{
+margin-left: 42%;
+margin-top: 20px;
+}
+
+.foot-c i{
+padding: 20px;
+background-color:ghostwhite;
+}
+
+
+.foot-c i:hover{
+background-color: grey;
+}
+
+#f1{
+background: linear-gradient(to right, #603813, #b29f94);
+width: 400px;
+height: 200px;
+}
+
+
+#foot:hover{
+background: linear-gradient(to right, #314755, #26a0da);
+}
+
+
+
+
+
+
+
+
+@keyframes first{
+0%{
+    background-image: url('../Image/code7.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+50%{
+    background-image: url('../Image/code5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+
+}
+
+75%{
+ 
+    background-image: url('../Image/code2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+
+
+}
+
+100%{
+    background-image: url('../Image/code8.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+}
